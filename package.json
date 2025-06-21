@@ -6,7 +6,7 @@
     "dev": "next dev",
     "hostdev": "next dev --hostname 192.168.0.165",
     "build": "next build",
-    "start": "next start -p 8003",
+    "start": "NODE_ENV=production NODE_PORT=8003 node server.js",
     "export": "next build",
     "lint": "next lint",
     "check-keys": "translation-key-purge start"
