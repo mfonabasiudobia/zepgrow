@@ -1,0 +1,29 @@
+.personal_info_input {
+  &[readonly] {
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+    opacity: 0.8;
+  }
+}
+
+.switch {
+  input[disabled] + label {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.text-muted {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.profile_image_div {
+  .add_profile {
+    transition: opacity 0.3s ease;
+  }
+  
+  &:not(:hover) .add_profile {
+    opacity: 0;
+  }
+} 

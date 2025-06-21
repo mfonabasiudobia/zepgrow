@@ -1,0 +1,90 @@
+.profile-address-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-address-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+
+    svg {
+      color: var(--primary-color);
+    }
+
+    h5 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  }
+
+  .profile-address-text {
+    color: #666;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+}
+
+.profile-address-display {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+
+  .profile-address-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+
+    svg {
+      color: var(--primary-color);
+    }
+
+    h5 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--primary-color);
+    }
+  }
+
+  .profile-address-text {
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  .btn-outline-primary {
+    width: 100%;
+    padding: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+    }
+  }
+} 

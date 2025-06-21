@@ -1,0 +1,13 @@
+/* Style for discounted price display in AdsCard */
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_card_prod_original_price {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.66);
+}
